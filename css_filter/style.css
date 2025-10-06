@@ -20,7 +20,7 @@
 }
 
 .word {
-  background-image: url("tokyo.jpg");
+  background-image: url("assets/tokyo.jpg");
 }
 
 .word:hover {
@@ -28,7 +28,7 @@
 }
 
 .word2 {
-  background-image: url("jobs.jpg");
+  background-image: url("assets/jobs.jpg");
   background-repeat: no-repeat;
 }
 
@@ -37,14 +37,14 @@
 }
 
 .word3 {
-  background-image: url("street.jpg");
+  background-image: url("assets/street.jpg");
 }
 .word3:hover {
   filter: hue-rotate(90deg);
 }
 
 .word4 {
-  background-image: url("street2.jpg");
+  background-image: url("assets/street2.jpg");
 }
 .word4:hover {
   filter: invert(100%);
@@ -52,7 +52,7 @@
 
 .word5 {
   margin: 2px;
-  background-image: url("tower.jpg");
+  background-image: url("assets/tower.jpg");
   transition: 2.5s ease;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .word6 {
-  background-image: url("shibuya.jpg");
+  background-image: url("assets/shibuya.jpg");
 }
 .word6:hover {
   filter: saturate(280%);
@@ -84,14 +84,14 @@
 }
 
 .word7 {
-  background-image: url("palace.jpg");
+  background-image: url("assets/palace.jpg");
 }
 .word7:hover {
   filter: opacity(30%);
 }
 
 .word8 {
-  background-image: url("cybercity.jpg");
+  background-image: url("assets/cybercity.jpg");
 }
 
 .word8:hover {
@@ -99,13 +99,13 @@
 }
 
 .word9 {
-  background-image: url("tokyo2.jpg");
+  background-image: url("assets/tokyo2.jpg");
 }
 .word9:hover {
   filter: brightness(350%);
 }
 .word10 {
-  background-image: url("city3.jpg");
+  background-image: url("assets/city3.jpg");
 }
 
 .word10:hover {
@@ -113,7 +113,7 @@
 }
 
 .word11 {
-  background-image: url("jet.jpg");
+  background-image: url("assets/jet.jpg");
 }
 
 .word11:hover {

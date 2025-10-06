@@ -1,7 +1,122 @@
-div.sticky {
-  position: sticky;
-  top: 0;
-  padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4caf50;
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.word,
+.word2,
+.word3,
+.word4,
+.word5,
+.word6 {
+  width: 30%; /* each takes half the screen */
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  transition: 3.5s ease;
+}
+
+.word {
+  background-image: url("tokyo.jpg");
+}
+
+.word:hover {
+  filter: grayscale(90%);
+}
+
+.word2 {
+  background-image: url("jobs.jpg");
+  background-repeat: no-repeat;
+}
+
+.word2:hover {
+  filter: blur(20px);
+}
+
+.word3 {
+  background-image: url("street.jpg");
+}
+.word3:hover {
+  filter: hue-rotate(90deg);
+}
+
+.word4 {
+  background-image: url("street2.jpg");
+}
+.word4:hover {
+  filter: invert(100%);
+}
+
+.word5 {
+  margin: 2px;
+  background-image: url("tower.jpg");
+  transition: 2.5s ease;
+}
+
+.word5:hover {
+  filter: drop-shadow(30px 3px 10px crimson);
+}
+
+.word6 {
+  background-image: url("shibuya.jpg");
+}
+.word6:hover {
+  filter: saturate(280%);
+}
+
+.container2 {
+  display: flex;
+}
+
+.word7,
+.word8,
+.word9,
+.word10,
+.word11 {
+  width: 30%; /* each takes half the screen */
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  transition: 3.5s ease;
+}
+
+.word7 {
+  background-image: url("palace.jpg");
+}
+.word7:hover {
+  filter: opacity(30%);
+}
+
+.word8 {
+  background-image: url("cybercity.jpg");
+}
+
+.word8:hover {
+  filter: sepia(100%);
+}
+
+.word9 {
+  background-image: url("tokyo2.jpg");
+}
+.word9:hover {
+  filter: brightness(350%);
+}
+.word10 {
+  background-image: url("city3.jpg");
+}
+
+.word10:hover {
+  filter: contrast(200%);
+}
+
+.word11 {
+  background-image: url("jet.jpg");
+}
+
+.word11:hover {
+  /*Using Multiple Filters */
+  filter: brightness(150%) contrast(200%);
 }

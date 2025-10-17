@@ -76,7 +76,7 @@
   background-position: center;
   background-size: cover;
   height: 50vh;
-  mix-blend-mode: color-burn;
+  mix-blend-mode: saturation;
 }
 
 .container .img9 {
@@ -86,7 +86,7 @@
   background-size: cover;
   height: 50vh;
   width: 1fr;
-  mix-blend-mode: color-burn;
+  mix-blend-mode: difference;
 }
 .container .img10 {
   background-image: url("/assets/grass.jpg");
@@ -94,7 +94,7 @@
   background-position: center;
   background-size: cover;
   height: 50vh;
-  mix-blend-mode: color-burn;
+  mix-blend-mode: exclusion;
 }
 .container .img11 {
   background-image: url("/assets/render1.jpg");
@@ -102,7 +102,7 @@
   background-position: center;
   background-size: cover;
   height: 50vh;
-  mix-blend-mode: color-burn;
+  mix-blend-mode: hue;
 }
 .container .img12 {
   background-image: url("/assets/render2.jpg");
@@ -118,7 +118,7 @@
   background-position: center;
   background-size: cover;
   height: 50vh;
-  mix-blend-mode: color-burn;
+  mix-blend-mode: color;
 }
 .container .img14 {
   background-image: url("/assets/render4.jpg");
@@ -126,5 +126,5 @@
   background-position: center;
   background-size: cover;
   height: 50vh;
-  mix-blend-mode: color-burn;
+  mix-blend-mode: luminosity;
 }

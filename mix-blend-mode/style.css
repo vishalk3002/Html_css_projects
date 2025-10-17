@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background: yellowgreen;
+}
+
+.container .img1 {
+  background-image: url("/assets/shibuya.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: normal;
+}
+
+.container .img2 {
+  background-image: url("/assets/street.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: multiply;
+}
+.container .img3 {
+  background-image: url("/assets/tower.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: screen;
+}
+.container .img4 {
+  background-image: url("/assets/street2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: overlay;
+}
+.container .img5 {
+  background-image: url("/assets/tokyo2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: darken;
+}
+.container .img6 {
+  background-image: url("/assets/palace.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: lighten;
+}
+
+.container .img7 {
+  background-image: url("/assets/mountain.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: color-dodge;
+}
+
+.container .img8 {
+  background-image: url("/assets/cofee.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: color-burn;
+}
+
+.container .img9 {
+  background-image: url("/assets/mushroom.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 1fr;
+  mix-blend-mode: color-burn;
+}
+.container .img10 {
+  background-image: url("/assets/grass.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: color-burn;
+}
+.container .img11 {
+  background-image: url("/assets/render1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: color-burn;
+}
+.container .img12 {
+  background-image: url("/assets/render2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: color-burn;
+}
+.container .img13 {
+  background-image: url("/assets/render3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: color-burn;
+}
+.container .img14 {
+  background-image: url("/assets/render4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  mix-blend-mode: color-burn;
+}
